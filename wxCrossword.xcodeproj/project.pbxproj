@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14024FF40FF51D0D00F6A1BD /* crossword_frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14024FC40FF5199B00F6A1BD /* crossword_frame.cpp */; };
+		142A75250FF47B9800962FFF /* crossword_board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142A75220FF47B9800962FFF /* crossword_board.cpp */; };
+		142E60DC0FFAD2E400D3ADDE /* client_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142E60DB0FFAD2E400D3ADDE /* client_main.cpp */; };
+		142F21BB1178E76A009E520A /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142F21B71178E76A009E520A /* tinyxml.cpp */; };
+		142F21BC1178E76A009E520A /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142F21B91178E76A009E520A /* tinyxmlerror.cpp */; };
+		142F21BD1178E76A009E520A /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142F21BA1178E76A009E520A /* tinyxmlparser.cpp */; };
+		1460BE640FF6EF500033B6C1 /* connect_dialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1460BE330FF6DCDD0033B6C1 /* connect_dialog.cpp */; };
+		14B803AA0FF477BC002C628F /* display_panel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14B803A80FF477BC002C628F /* display_panel.cpp */; };
+		8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14024FC30FF5199B00F6A1BD /* crossword_frame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = crossword_frame.hpp; sourceTree = "<group>"; };
+		14024FC40FF5199B00F6A1BD /* crossword_frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crossword_frame.cpp; sourceTree = "<group>"; };
+		142A75220FF47B9800962FFF /* crossword_board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crossword_board.cpp; sourceTree = "<group>"; };
+		142A75230FF47B9800962FFF /* crossword_board.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = crossword_board.hpp; sourceTree = "<group>"; };
+		142E60DB0FFAD2E400D3ADDE /* client_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client_main.cpp; sourceTree = "<group>"; };
+		142F21B71178E76A009E520A /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		142F21B81178E76A009E520A /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		142F21B91178E76A009E520A /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		142F21BA1178E76A009E520A /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		1460BE200FF6DB7D0033B6C1 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		1460BE270FF6DC1D0033B6C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1460BE290FF6DC1D0033B6C1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		1460BE2B0FF6DC1D0033B6C1 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		1460BE2D0FF6DC2B0033B6C1 /* System.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = System.framework; path = System/Library/Frameworks/System.framework; sourceTree = SDKROOT; };
+		1460BE320FF6DCDD0033B6C1 /* connect_dialog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = connect_dialog.hpp; sourceTree = "<group>"; };
+		1460BE330FF6DCDD0033B6C1 /* connect_dialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = connect_dialog.cpp; sourceTree = "<group>"; };
+		14B803A80FF477BC002C628F /* display_panel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = display_panel.cpp; sourceTree = "<group>"; };
+		14B803A90FF477BC002C628F /* display_panel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = display_panel.hpp; sourceTree = "<group>"; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		508344B209E5C41E0093A071 /* wxCrossword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wxCrossword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0C4E960486CD37000505A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0C4E910486CD37000505A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195DF8CFFE9D517E11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				508344B209E5C41E0093A071 /* wxCrossword.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* wxTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				5048396909E3304600765E4B /* Configuration Files */,
+				20286C2AFDCF999611CA2CEA /* Sources */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				195DF8CFFE9D517E11CA2CBB /* Products */,
+			);
+			name = wxTemplate;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				142F21B71178E76A009E520A /* tinyxml.cpp */,
+				142F21B81178E76A009E520A /* tinyxml.h */,
+				142F21B91178E76A009E520A /* tinyxmlerror.cpp */,
+				142F21BA1178E76A009E520A /* tinyxmlparser.cpp */,
+				142E60DB0FFAD2E400D3ADDE /* client_main.cpp */,
+				14024FC40FF5199B00F6A1BD /* crossword_frame.cpp */,
+				14024FC30FF5199B00F6A1BD /* crossword_frame.hpp */,
+				14B803A80FF477BC002C628F /* display_panel.cpp */,
+				14B803A90FF477BC002C628F /* display_panel.hpp */,
+				142A75220FF47B9800962FFF /* crossword_board.cpp */,
+				142A75230FF47B9800962FFF /* crossword_board.hpp */,
+				1460BE320FF6DCDD0033B6C1 /* connect_dialog.hpp */,
+				1460BE330FF6DCDD0033B6C1 /* connect_dialog.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C4E960486CD37000505A6 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1460BE200FF6DB7D0033B6C1 /* Carbon.framework */,
+				1460BE270FF6DC1D0033B6C1 /* Cocoa.framework */,
+				1460BE290FF6DC1D0033B6C1 /* IOKit.framework */,
+				1460BE2B0FF6DC1D0033B6C1 /* QuickTime.framework */,
+				1460BE2D0FF6DC2B0033B6C1 /* System.framework */,
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		5048396909E3304600765E4B /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0C4E890486CD37000505A6 /* wxcodeCrossword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E91AC508A95435008D54AB /* Build configuration list for PBXNativeTarget "wxcodeCrossword" */;
+			buildPhases = (
+				8D0C4E8C0486CD37000505A6 /* Resources */,
+				8D0C4E8F0486CD37000505A6 /* Sources */,
+				8D0C4E910486CD37000505A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wxcodeCrossword;
+			productInstallPath = "$(HOME)/Applications";
+			productName = wxTemplate;
+			productReference = 508344B209E5C41E0093A071 /* wxCrossword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "wxCrossword" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 20286C29FDCF999611CA2CEA /* wxTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0C4E890486CD37000505A6 /* wxcodeCrossword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0C4E8C0486CD37000505A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0C4E8F0486CD37000505A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1460BE640FF6EF500033B6C1 /* connect_dialog.cpp in Sources */,
+				14024FF40FF51D0D00F6A1BD /* crossword_frame.cpp in Sources */,
+				14B803AA0FF477BC002C628F /* display_panel.cpp in Sources */,
+				142A75250FF47B9800962FFF /* crossword_board.cpp in Sources */,
+				142E60DC0FFAD2E400D3ADDE /* client_main.cpp in Sources */,
+				142F21BB1178E76A009E520A /* tinyxml.cpp in Sources */,
+				142F21BC1178E76A009E520A /* tinyxmlerror.cpp in Sources */,
+				142F21BD1178E76A009E520A /* tinyxmlparser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0E91AC608A95435008D54AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Libraries/tinyxml/tinyxml/build/Release\"",
+				);
+				OTHER_CFLAGS = (
+					"-I/usr/lib/wx/include/mac-unicode-debug-2.8",
+					"-I/usr/include/wx-2.8",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-D__WXDEBUG__",
+					"-D__WXMAC__",
+					"-I/usr/local/include",
+					"-DTIXML_USE_STL",
+				);
+				OTHER_LDFLAGS = (
+					"-ltinyxml",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					QuickTime,
+					"-lwx_macud-2.8",
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+				);
+				PRODUCT_NAME = wxCrossword;
+			};
+			name = Debug;
+		};
+		C0E91AC708A95435008D54AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Libraries/tinyxml/tinyxml/build/Release\"",
+				);
+				OTHER_CFLAGS = (
+					"-I/usr/lib/wx/include/mac-unicode-debug-2.8",
+					"-I/usr/include/wx-2.8",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-D__WXDEBUG__",
+					"-D__WXMAC__",
+					"-I/usr/local/include",
+					"-DTIXML_USE_STL",
+				);
+				OTHER_LDFLAGS = (
+					"-ltinyxml",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					QuickTime,
+					"-lwx_macud-2.8",
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+				);
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				PRODUCT_NAME = wxCrossword;
+			};
+			name = Release;
+		};
+		C0E91ACA08A95435008D54AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/wx-2.8\n";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/Developer/SDKs/MacOSX10.6.sdk/usr/include/wx-2.8\n",
+					"$(OTHER_CFLAGS)",
+				);
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C0E91ACB08A95435008D54AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				HEADER_SEARCH_PATHS = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/wx-2.8\n";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/Developer/SDKs/MacOSX10.6.sdk/usr/include/wx-2.8\n",
+					"$(OTHER_CFLAGS)",
+				);
+				SDKROOT = macosx10.6;
+				SEPARATE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E91AC508A95435008D54AB /* Build configuration list for PBXNativeTarget "wxcodeCrossword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E91AC608A95435008D54AB /* Debug */,
+				C0E91AC708A95435008D54AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "wxCrossword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E91ACA08A95435008D54AB /* Debug */,
+				C0E91ACB08A95435008D54AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}

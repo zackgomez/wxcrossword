@@ -1,0 +1,22 @@
+CXXFLAGS = -g -Wall
+CPPFLAGS = -DTIXML_USE_STL -DDEBUG -DLINUX `wx-config --cppflags`
+
+TIXML_OBJS = tinyxml.o tinyxmlparser.o tinyxmlerror.o
+SERVER_OBJS = crossword_server.o crossword_board.o kissnet.o serv_main.o
+CLIENT_OBJS = crossword_board.o crossword_frame.o display_panel.o connect_dialog.o client_main.o
+
+all: server client 
+
+server: $(SERVER_OBJS) $(TIXML_OBJS)
+	$(CXX) $(SERVER_OBJS) $(COMMON_LIBS) $(BOOST_LIBS) $(TIXML_OBJS) -o server
+
+client: $(CLIENT_OBJS) $(TIXML_OBJS)
+	$(CXX) $(CLIENT_OBJS) $(TIXML_OBJS) `wx-config --libs` -o client
+
+clean:
+	rm -rf *.o server client
+
+tags:
+	ctags -R .
+
+.PHONY: clean all tags test

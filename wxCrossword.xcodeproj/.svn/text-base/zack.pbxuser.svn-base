@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	14024FC30FF5199B00F6A1BD /* crossword_frame.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {626, 630}}";
+			sepNavSelRange = "{409, 0}";
+			sepNavVisRange = "{32, 793}";
+			sepNavWindowFrame = "{{15, 86}, {760, 937}}";
+		};
+	};
+	14024FC40FF5199B00F6A1BD /* crossword_frame.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {614, 4576}}";
+			sepNavSelRange = "{4491, 0}";
+			sepNavVisRange = "{6809, 823}";
+			sepNavWindowFrame = "{{15, 86}, {760, 937}}";
+		};
+	};
+	140251870FF5C95800F6A1BD /* crossword_board.cpp:225 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 142A75220FF47B9800962FFF /* crossword_board.cpp */;
+		functionName = "crossword_board::read(std::istream& in)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 225;
+		location = wxCrossword;
+		modificationTime = 268253653.825901;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	141F08BD0FF472B800647870 /* wxcodeCrossword */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = wxcodeCrossword;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+		};
+	};
+	141F08C30FF472CA00647870 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	141F08C40FF472CA00647870 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	141F08D50FF4739E00647870 /* main.cp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = main.cp;
+		path = /Users/zack/Documents/wxTemplate/main.cp;
+		sourceTree = "<absolute>";
+	};
+	141F08F10FF473E000647870 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 141F08D50FF4739E00647870 /* main.cp */;
+	};
+	142A75220FF47B9800962FFF /* crossword_board.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {626, 7042}}";
+			sepNavSelRange = "{4860, 0}";
+			sepNavVisRange = "{4437, 947}";
+			sepNavWindowFrame = "{{15, 86}, {760, 937}}";
+		};
+	};
+	142A75230FF47B9800962FFF /* crossword_board.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {626, 2100}}";
+			sepNavSelRange = "{397, 0}";
+			sepNavVisRange = "{774, 1041}";
+		};
+	};
+	142E60DB0FFAD2E400D3ADDE /* client_main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {626, 453}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 283}";
+		};
+	};
+	144958D71003CD7500FEB8BA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14B803A80FF477BC002C628F /* display_panel.cpp */;
+		name = "display_panel.cpp: 114";
+		rLen = 0;
+		rLoc = 3033;
+		rType = 0;
+		vrLen = 1104;
+		vrLoc = 2537;
+	};
+	144D53FD0FFA8DDE007C7277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14B803A90FF477BC002C628F /* display_panel.hpp */;
+		name = "display_panel.hpp: 59";
+		rLen = 0;
+		rLoc = 1602;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 601;
+	};
+	144D54420FFA9BF7007C7277 /* crossword_frame.cpp:106 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 14024FC40FF5199B00F6A1BD /* crossword_frame.cpp */;
+		functionName = "crossword_frame::on_cursor(std::string data)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 106;
+		location = wxCrossword;
+		modificationTime = 268253653.825919;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	144D54510FFA9DC2007C7277 /* display_panel.cpp:230 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 14B803A80FF477BC002C628F /* display_panel.cpp */;
+		functionName = "display_panel::update_word_coords(std::list<wxPoint>& coords, int x, int y, int dir)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 230;
+		location = wxCrossword;
+		modificationTime = 268253653.825927;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	144D54560FFA9DD1007C7277 /* display_panel.cpp:231 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 14B803A80FF477BC002C628F /* display_panel.cpp */;
+		functionName = "display_panel::update_word_coords(std::list<wxPoint>& coords, int x, int y, int dir)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 231;
+		location = wxCrossword;
+		modificationTime = 268253653.825934;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	144D54600FFA9E9A007C7277 /* crossword_frame.cpp:111 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 14024FC40FF5199B00F6A1BD /* crossword_frame.cpp */;
+		functionName = "crossword_frame::on_cursor(std::string data)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 111;
+		location = wxCrossword;
+		modificationTime = 268253653.825941;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	144D54680FFA9FB2007C7277 /* display_panel.cpp:124 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 14B803A80FF477BC002C628F /* display_panel.cpp */;
+		functionName = "display_panel::update_display()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 124;
+		location = wxCrossword;
+		modificationTime = 268253653.825948;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	144D546A0FFA9FB7007C7277 /* display_panel.cpp:125 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 14B803A80FF477BC002C628F /* display_panel.cpp */;
+		functionName = "display_panel::update_display()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 125;
+		location = wxCrossword;
+		modificationTime = 268253653.825954;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	144D54720FFAA044007C7277 /* display_panel.cpp:130 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 14B803A80FF477BC002C628F /* display_panel.cpp */;
+		functionName = "display_panel::update_display()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 130;
+		location = wxCrossword;
+		modificationTime = 268253653.825961;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	144D54740FFAA045007C7277 /* display_panel.cpp:133 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 14B803A80FF477BC002C628F /* display_panel.cpp */;
+		functionName = "display_panel::update_display()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 133;
+		location = wxCrossword;
+		modificationTime = 268253653.825968;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	1460BE320FF6DCDD0033B6C1 /* connect_dialog.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 362}}";
+			sepNavSelRange = "{13, 0}";
+			sepNavVisRange = "{0, 274}";
+		};
+	};
+	1460BE330FF6DCDD0033B6C1 /* connect_dialog.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 574}}";
+			sepNavSelRange = "{1500, 0}";
+			sepNavVisRange = "{104, 1125}";
+			sepNavWindowFrame = "{{15, 86}, {760, 937}}";
+		};
+	};
+	1460C0670FF70A140033B6C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1460BE330FF6DCDD0033B6C1 /* connect_dialog.cpp */;
+		name = "connect_dialog.cpp: 13";
+		rLen = 3;
+		rLoc = 518;
+		rType = 0;
+		vrLen = 1248;
+		vrLoc = 30;
+	};
+	14722A8B0FF81C9B0032074A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14024FC30FF5199B00F6A1BD /* crossword_frame.hpp */;
+		name = "crossword_frame.hpp: 21";
+		rLen = 0;
+		rLoc = 409;
+		rType = 0;
+		vrLen = 793;
+		vrLoc = 32;
+	};
+	14B803A80FF477BC002C628F /* display_panel.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {626, 5796}}";
+			sepNavSelRange = "{3033, 0}";
+			sepNavVisRange = "{2537, 1104}";
+		};
+	};
+	14B803A90FF477BC002C628F /* display_panel.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {626, 826}}";
+			sepNavSelRange = "{1602, 0}";
+			sepNavVisRange = "{601, 1001}";
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
+		};
+	};
+	14C964170FFAEAD70037102A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 142E60DB0FFAD2E400D3ADDE /* client_main.cpp */;
+		name = "client_main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	14D569F111815083007950AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14024FC40FF5199B00F6A1BD /* crossword_frame.cpp */;
+		name = "crossword_frame.cpp: 164";
+		rLen = 0;
+		rLoc = 4491;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 6809;
+	};
+	14D569FA118150D7007950AA /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Wx/wx.h: No such file or directory";
+		fRef = 1460BE320FF6DCDD0033B6C1 /* connect_dialog.hpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 1;
+		rType = 1;
+	};
+	14D56A0111817B4A007950AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1460BE320FF6DCDD0033B6C1 /* connect_dialog.hpp */;
+		name = "connect_dialog.hpp: 2";
+		rLen = 0;
+		rLoc = 13;
+		rType = 0;
+		vrLen = 274;
+		vrLoc = 0;
+	};
+	20286C28FDCF999611CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 141F08BD0FF472B800647870 /* wxcodeCrossword */;
+		activeTarget = 8D0C4E890486CD37000505A6 /* wxcodeCrossword */;
+		addToTargets = (
+			8D0C4E890486CD37000505A6 /* wxcodeCrossword */,
+		);
+		breakpoints = (
+			140251870FF5C95800F6A1BD /* crossword_board.cpp:225 */,
+			144D54420FFA9BF7007C7277 /* crossword_frame.cpp:106 */,
+			144D54510FFA9DC2007C7277 /* display_panel.cpp:230 */,
+			144D54560FFA9DD1007C7277 /* display_panel.cpp:231 */,
+			144D54600FFA9E9A007C7277 /* crossword_frame.cpp:111 */,
+			144D54680FFA9FB2007C7277 /* display_panel.cpp:124 */,
+			144D546A0FFA9FB7007C7277 /* display_panel.cpp:125 */,
+			144D54720FFAA044007C7277 /* display_panel.cpp:130 */,
+			144D54740FFAA045007C7277 /* display_panel.cpp:133 */,
+		);
+		codeSenseManager = 141F08C40FF472CA00647870 /* Code sense */;
+		executables = (
+			141F08BD0FF472B800647870 /* wxcodeCrossword */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					394,
+					244,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					336,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					428,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					408,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293687365;
+			PBXWorkspaceStateSaveDate = 293687365;
+		};
+		perUserProjectItems = {
+			141F08F10FF473E000647870 /* PBXBookmark */ = 141F08F10FF473E000647870 /* PBXBookmark */;
+			144958D71003CD7500FEB8BA /* PBXTextBookmark */ = 144958D71003CD7500FEB8BA /* PBXTextBookmark */;
+			144D53FD0FFA8DDE007C7277 /* PBXTextBookmark */ = 144D53FD0FFA8DDE007C7277 /* PBXTextBookmark */;
+			1460C0670FF70A140033B6C1 /* PBXTextBookmark */ = 1460C0670FF70A140033B6C1 /* PBXTextBookmark */;
+			14722A8B0FF81C9B0032074A /* PBXTextBookmark */ = 14722A8B0FF81C9B0032074A /* PBXTextBookmark */;
+			14C964170FFAEAD70037102A /* PBXTextBookmark */ = 14C964170FFAEAD70037102A /* PBXTextBookmark */;
+			14D569F111815083007950AA /* PBXTextBookmark */ = 14D569F111815083007950AA /* PBXTextBookmark */;
+			14D569FA118150D7007950AA /* XCBuildMessageTextBookmark */ = 14D569FA118150D7007950AA /* XCBuildMessageTextBookmark */;
+			14D56A0111817B4A007950AA /* PBXTextBookmark */ = 14D56A0111817B4A007950AA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 141F08C30FF472CA00647870 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D0C4E890486CD37000505A6 /* wxcodeCrossword */ = {
+		activeExec = 0;
+		executables = (
+			141F08BD0FF472B800647870 /* wxcodeCrossword */,
+		);
+	};
+	8D0C4E960486CD37000505A6 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 86}, {760, 937}}";
+		};
+	};
+}

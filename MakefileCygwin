@@ -1,0 +1,24 @@
+BOOST_DIR = /usr/local/include/boost-1_39
+CXXFLAGS = -g -Wall -I$(BOOST_DIR) `wx-config --cppflags`
+CPPFLAGS = -D__USE_W32_SOCKETS -D_WIN32_WINNT=0x0501 -DTIXML_USE_STL -DDEBUG
+BOOST_LIBS = -lboost_system-gcc34-mt-1_39 -lws2_32 -lwsock32
+COMMON_LIBS = -ltinyxml
+
+SERVER_OBJS = crossword_server.o crossword_board.o
+CLIENT_OBJS = crossword_board.o crossword_frame.o display_panel.o connect_dialog.o client_main.o
+
+all: server client 
+
+server: $(SERVER_OBJS)
+	$(CXX) $(SERVER_OBJS) $(COMMON_LIBS) $(BOOST_LIBS) -o server
+
+client: $(CLIENT_OBJS)
+	$(CXX) $(CLIENT_OBJS) $(COMMON_LIBS) `wx-config --libs` -o client
+
+clean:
+	rm -rf *.o
+
+tags:
+	ctags -R .
+
+.PHONY: clean all tags test
