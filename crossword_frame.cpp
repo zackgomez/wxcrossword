@@ -11,9 +11,9 @@
 
 crossword_frame::crossword_frame()
     : wxFrame(NULL, wxID_ANY, wxT("Crossword App"), wxDefaultPosition, wxSize(600, 622),
-            wxDEFAULT_FRAME_STYLE & ~ (wxRESIZE_BORDER | wxRESIZE_BOX | wxMAXIMIZE_BOX)),
-    display_(0),
-    board_()
+            wxDEFAULT_FRAME_STYLE & ~ (wxRESIZE_BORDER | wxRESIZE_BORDER | wxMAXIMIZE_BOX)),
+    board_(),
+    display_(0)
 {
     // Setup the socket for later use
     socket_ = new wxSocketClient();
